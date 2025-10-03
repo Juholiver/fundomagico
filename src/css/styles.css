@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto mono", monospace;
+    color: #ffffff;
+    padding: 32px 24px;
+    line-height: 1.4;
+    background: url(../imagens/planodefundopr.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    z-index: 99;
+    position: relative;
+    max-width: 700px;
+    margin:  35px auto;
+}
+
+.header h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.subtitle {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.8);
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1024px;
+    margin: 0 auto;
+    z-index: 99;
+    position: relative;
+    
+}
+.card {
+    background: linear-gradient( to bottom, #87CEEB, #4682B4, #1e3a8a, #000000 );
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 32px;
+    
+
+}
+
+.card-header {
+    font-size: 21px;
+    margin-bottom: 34px;
+    text-align: center;
+    
+}
+
+.form-group textarea {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    width: 100%;
+    min-height: 120px;
+    padding: 16px;
+    border: 1px solid #474646;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+}
+.form-group textarea:focus {
+    outline: none;
+    border-color: #87CEEB;
+    box-shadow: 0 0 5px rgba(135, 206, 235, 0.5);
+}
+.form-group textarea::placeholder {
+    color: #a19e9e;
+    font-style: italic;
+}
+
+.form-group .btn-magic {
+    background: radial-gradient(circle, #87CEEB, #000000);
+    color: #ffffff;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.form-group .btn-magic:hover {
+    transform: translateY(-2px);
+    background: linear-gradient( to bottom, #000000, #1e3a8a, #4682B4, #87CEEB );
+}
+
+.preview-card {
+    display: none;
+}
+
+.code-grid {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.code-card {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+    width: 300px;
+    
+}
+
+.code-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+    
+}
+.code-block{
+    background-color: #0a0c10;
+    color:#4682B4;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 14px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+

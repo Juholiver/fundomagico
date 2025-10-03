@@ -1,0 +1,25 @@
+@media (max-width: 768px){
+    .header h1 {
+        font-size: 32px;
+        
+    }
+    .header .subtitle {
+        font-size: 16px;
+        text-align: center;
+    }
+    .card-header {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+    .code-grid {
+        flex-direction: column;
+
+    }
+    .code-card {
+        width: 100%;
+    }
+    .btn-magic {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
